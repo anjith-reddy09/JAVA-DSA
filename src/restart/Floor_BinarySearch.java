@@ -1,0 +1,38 @@
+package restart;
+import java.util.*;
+public class Floor_BinarySearch {
+public static void main(String[]args) {
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter the size of array");
+	int n = sc.nextInt();
+	int arr[]= new int[n];
+	for(int i=0;i<arr.length;i++) {
+		arr[i] = sc.nextInt();
+	}
+	System.out.println("Enter the target");
+	int target = sc.nextInt();
+	int ans = floor(arr,target);
+	if(ans ==-1)  
+		System.out.println("No elements found");
+	else 
+		System.out.println("floor of a number is "+ans);
+}
+public static int floor(int arr[],int target) {
+	int start  =0;
+	int end = arr.length-1;
+	while(start<=end) {
+		int mid = start+(end-start)/2;
+		if(target < arr[mid]) {
+			end = mid-1;
+		}
+		else if(target > arr[mid]) {
+			start = mid+1;
+		}else
+			return arr[mid];
+	}
+	if(end==-1) {
+		return -1;
+	}
+	return arr[end];
+}
+}
