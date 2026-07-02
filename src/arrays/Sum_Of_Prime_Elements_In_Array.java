@@ -1,4 +1,4 @@
-package restart;
+package arrays;
 import java.util.*;
 public class Sum_Of_Prime_Elements_In_Array {
 public static void main(String[]args) {

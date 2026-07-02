@@ -1,4 +1,4 @@
-package restart;
+package arraylist;
 import java.util.*;
 import java.util.ArrayList;
 public class Arraylist_02 {

@@ -1,4 +1,4 @@
-package restart.Linear_Search;
+package linearsearch;
 import java.util.*;
 public class Richest_Customer {
 public static void main(String[]args) {

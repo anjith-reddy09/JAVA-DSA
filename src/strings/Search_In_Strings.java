@@ -1,4 +1,4 @@
-package restart;
+package strings;
 import java.util.*;
 public class Search_In_Strings {
 public static void main(String[]args) {

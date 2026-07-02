@@ -1,4 +1,4 @@
-package restart;
+package arrays;
 import java.util.*;
 public class Even_Odd_Elements_In_Array {
 public static void main(String[]args) {

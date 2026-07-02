@@ -1,4 +1,4 @@
-package restart;
+package arrays;
 import java.util.*;
 public class Coping_Prime_Elements_From_2Arrays {
 public static void main(String[]args) {

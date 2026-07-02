@@ -1,4 +1,4 @@
-package restart;
+package arrays;
 import java.util.*;
 public class Sum_Of_Elements_At_Even_Indices {
 public static void main(String[] args) {

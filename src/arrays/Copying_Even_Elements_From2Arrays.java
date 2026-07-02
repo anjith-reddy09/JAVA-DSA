@@ -1,4 +1,4 @@
-package restart;
+package arrays;
 import java.util.*;
 public class Copying_Even_Elements_From2Arrays {
 public static void main(String[]args) {

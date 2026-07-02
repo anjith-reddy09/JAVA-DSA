@@ -1,4 +1,4 @@
-package restart.Linear_Search;
+package linearsearch;
 import java.util.*;
 public class Finding_Minvalue_In2Darray {
 public static void main(String[]args) {

@@ -1,4 +1,4 @@
-package restart;
+package binarysearch;
 import java.util.*;
 public class OrderAgnosticBinarySearch {
 public static void main(String[]args) {

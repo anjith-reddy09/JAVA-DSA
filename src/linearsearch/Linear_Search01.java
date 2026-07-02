@@ -1,4 +1,4 @@
-package restart;
+package linearsearch;
 import java.util.*;
 public class Linear_Search01 {
 public static void main(String[] args) {

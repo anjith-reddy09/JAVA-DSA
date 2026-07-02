@@ -1,4 +1,4 @@
-package restart.Linear_Search;
+package linearsearch;
 import java.util.*;
 public class Finding_EvennumberOF_Digits {
 public static void main(String[]args) {

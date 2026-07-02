@@ -1,4 +1,4 @@
-package restart;
+package binarysearch;
 import java.util.*;
 public class LastOccurance_BinarySearch {
 public static void main(String[]args) {
