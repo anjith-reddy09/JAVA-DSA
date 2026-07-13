@@ -19,7 +19,7 @@ public static void main(String[]args) {
 }
 public static int binarySearch(int arr[],int target) {
 	int start = 0;
-	int ans = -1;
+	
 	int end = arr.length-1;
 	while(start<=end) {
 		int mid = start +(end-start)/2;
@@ -28,10 +28,9 @@ public static int binarySearch(int arr[],int target) {
 		}else if(target < arr[mid]) {
 			end = mid-1;
 		}else  {
-			ans = mid;
-			end = mid-1;
+			return mid;	
 		}
 	}
-	return ans;
+	return -1;
 }
 }

@@ -18,7 +18,7 @@ public static void main(String[]args) {
 		System.out.println("Last occurance of element is at index "+ans);
 }
 public static int lastOccurance(int arr[],int target) {
-	int ans =-1;
+	int ans = -1;
 	int start =0;
 	int end = arr.length-1;
 	while(start<=end) {
@@ -29,7 +29,7 @@ public static int lastOccurance(int arr[],int target) {
 		else if(target > arr[mid]) {
 			start = mid+1;
 		}else {
-			ans = mid;
+            ans = end ;
 			start = mid+1;
 		}
 	}

@@ -30,9 +30,9 @@ public static int binarySearch(int arr[],int target) {
 			start = mid+1;
 		}
 		else {
-			ans = mid;
+			ans = start;
 			end = mid-1;
-		}
+		} 
 	}
 	return ans;
 }

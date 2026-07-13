@@ -1,4 +1,4 @@
-package binarysearch;
+  package binarysearch;
 import java.util.*;
 public class InfiniteSortedArrayBinarySearch {
 public static void main(String[]args) {
